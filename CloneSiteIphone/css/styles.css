@@ -155,6 +155,9 @@ header nav {
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
+    box-shadow: 1px 1px 1px;
+    border: 4px solid white;
+    pointer-events: none;
 }
 
 #image-picker li .description {
@@ -175,10 +178,14 @@ header nav {
     background-color: #fae7cf;
 }
 
-#green .color {
-    background-color: #394c38;
+#grafite .color {
+    background-color: #54524f;
 }
 
-#green .color {
-    background-color: #394c38;
+#blue .color {
+    background-color: #a7d1c9;
+}
+
+.selected {
+    outline: 2px solid #0071e3;
 }
